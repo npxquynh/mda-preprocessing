@@ -1,0 +1,2 @@
+# to clean up csv file
+cat data_25months_new.csv | tr -d '\\N'> data_25months_cleaned.csv
